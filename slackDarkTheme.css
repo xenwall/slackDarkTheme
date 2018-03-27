@@ -822,14 +822,25 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-mrkdwn__member--link,
 .c-mrkdwn__subteam--link {
-  background: #ce93d8;
+  background: #a5d6a7;
   color: #0576b9;
 }
 .c-mrkdwn__member--link:hover,
 .c-mrkdwn__subteam--link:hover {
-  background: #bf360c;
+  background: #68bd49;
   color: #005e99;
   text-decoration: none;
+}
+.c-mrkdwn__mention,
+.c-mrkdwn__mention:hover,
+.c-mrkdwn__member--mention,
+.c-mrkdwn__member--mention:hover,
+.c-mrkdwn__broadcast--mention,
+.c-mrkdwn__broadcast--mention:hover,
+.c-mrkdwn__subteam--mention,
+.c-mrkdwn__subteam--mention:hover {
+  background: #d980c1;
+  color: #0576b9;
 }
 
 .c-message--sli_highlight_negative .c-message__label { background: rgba(0, 0, 0, 0.1); }
