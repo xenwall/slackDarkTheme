@@ -820,7 +820,17 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--sli_highlight .c-message__label .c-mrkdwn__member--link, .c-message--sli_highlight .c-message__label .c-mrkdwn__channel.internal_channel_link { color: #949494; background: #ce93d8 }
 
-.c-message--sli_highlight .c-message__label .c-mrkdwn__member--mention { color: #949494; background: #bf360c }
+.c-mrkdwn__member--link,
+.c-mrkdwn__subteam--link {
+  background: #ce93d8;
+  color: #0576b9;
+}
+.c-mrkdwn__member--link:hover,
+.c-mrkdwn__subteam--link:hover {
+  background: #bf360c;
+  color: #005e99;
+  text-decoration: none;
+}
 
 .c-message--sli_highlight_negative .c-message__label { background: rgba(0, 0, 0, 0.1); }
 
