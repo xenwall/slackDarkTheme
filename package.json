@@ -1,0 +1,26 @@
+{
+  "name": "slackdarktheme",
+  "version": "1.0.0",
+  "description":
+    "A dark theme for Slack because bright colors hurt my soft sensitive eyes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cleancss -o dist/slackDarkTheme.min.css slackDarkTheme.css",
+    "build-optimized":
+      "cleancss -O2 -o dist/slackDarkThemeOptimized.min.css slackDarkTheme.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jac21/slackDarkTheme.git"
+  },
+  "author": "xenwall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jac21/slackDarkTheme/issues"
+  },
+  "homepage": "https://github.com/Jac21/slackDarkTheme#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11"
+  }
+}
