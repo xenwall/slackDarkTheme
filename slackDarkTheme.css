@@ -3,6 +3,11 @@ body {
   color: #e6e6e6;
 }
 
+client_main_container {
+  background: #222;
+  color: #e6e6e6;
+}
+
 a {
   color: #949494;
 }
